@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/log2"
+    tools:context=".User">
+  <TableRow>
+      <EditText
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="First Name:"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:textSize="30dp"
+          android:textColor="@color/colorAccent"/>
+      <EditText
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:text="Nafis"
+          android:textStyle="bold"
+          android:textSize="30dp"
+          />
+
+
+  </TableRow>
+    <TableRow>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Last Name:"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/colorAccent"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ayon"
+            android:textStyle="bold"
+            android:textSize="30dp"
+           />
+
+
+    </TableRow>
+    <TableRow>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Depatment"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/colorAccent"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="CSE"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ID:"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/colorAccent"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="180104065"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Group:"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/colorAccent"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="B1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+
+    </TableRow>
+
+
+
+</TableLayout>
